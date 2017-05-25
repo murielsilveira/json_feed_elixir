@@ -7,6 +7,14 @@ defmodule Feed do
     version: "https://jsonfeed.org/version/1",
     title: nil,
     home_page_url: nil,
-    author: %Author{}
+    feed_url: nil,
+    description: nil,
+    user_comment: nil,
+    next_url: nil,
+    icon: nil,
+    favicon: nil,
+    author: %Author{},
+    expired: false,
+    hubs: [],
   ]
 end
