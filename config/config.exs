@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :json_feed_elixir, key: :value
+#     config :json_feed, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:json_feed_elixir, :key)
+#     Application.get_env(:json_feed, :key)
 #
 # Or configure a 3rd-party app:
 #

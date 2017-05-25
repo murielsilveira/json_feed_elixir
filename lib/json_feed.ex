@@ -1,6 +1,6 @@
-defmodule JsonFeedElixir do
+defmodule JsonFeed do
   @moduledoc """
-  Documentation for JsonFeedElixir.
+  Documentation for JsonFeed.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule JsonFeedElixir do
 
   ## Examples
 
-      iex> JsonFeedElixir.hello
+      iex> JsonFeed.hello
       :world
 
   """

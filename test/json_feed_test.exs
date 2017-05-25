@@ -1,6 +1,6 @@
-defmodule JsonFeedElixirTest do
+defmodule JsonFeedTest do
   use ExUnit.Case
-  doctest JsonFeedElixir
+  doctest JsonFeed
 
   test "the truth" do
     assert 1 + 1 == 2

@@ -1,8 +1,8 @@
-defmodule JsonFeedElixir.Mixfile do
+defmodule JsonFeed.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :json_feed_elixir,
+    [app: :json_feed,
      version: "0.1.0",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
