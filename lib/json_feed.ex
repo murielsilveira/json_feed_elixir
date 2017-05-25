@@ -1,18 +1,5 @@
 defmodule JsonFeed do
-  @moduledoc """
-  Documentation for JsonFeed.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> JsonFeed.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def parse(_json_as_string) do
+    %Feed{}
   end
 end
