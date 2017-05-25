@@ -5,17 +5,17 @@ defmodule AuthorTest do
     %Author{}
   end
 
-  test "Author name attribute default value is nil" do
+  test "name attribute default value is nil" do
     author = %Author{}
     assert author.name == nil
   end
 
-  test "Author url attribute default value is nil" do
+  test "url attribute default value is nil" do
     author = %Author{}
     assert author.url == nil
   end
 
-  test "Author avatar attribute default value is nil" do
+  test "avatar attribute default value is nil" do
     author = %Author{}
     assert author.avatar == nil
   end
