@@ -4,7 +4,7 @@ defmodule Feed do
   representation of the JSON Feed spec.
   """
   defstruct [
-    version: nil,
+    version: "https://jsonfeed.org/version/1",
     title: nil,
     home_page_url: nil,
     author: %Author{}

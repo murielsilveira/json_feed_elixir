@@ -5,9 +5,9 @@ defmodule FeedTest do
     %Feed{}
   end
 
-  test "Feed version attribute default value is nil" do
+  test "Feed version attribute default value is the version 1 url of the spec " do
     user = %Feed{}
-    assert user.version == nil
+    assert user.version == "https://jsonfeed.org/version/1"
   end
 
   test "Feed title attribute default value is nil" do
