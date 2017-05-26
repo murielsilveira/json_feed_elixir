@@ -60,7 +60,7 @@ defmodule FeedTest do
     assert feed.expired == false
   end
 
-  test "hubs attribute default value is an empty array" do
+  test "hubs attribute default value is an empty list" do
     feed = %Feed{}
     assert feed.hubs == []
   end
