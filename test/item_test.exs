@@ -65,4 +65,9 @@ defmodule ItemTest do
     item = %Item{}
     assert item.tags == []
   end
+
+  test "attachments attribute default value is an empty list" do
+    item = %Item{}
+    assert item.attachments == []
+  end
 end

@@ -13,5 +13,6 @@ defmodule Item do
     date_modified: nil,
     author: %Author{},
     tags: [],
+    attachments: [],
   ]
 end
