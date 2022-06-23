@@ -9,7 +9,7 @@ defmodule JsonFeed.Mixfile do
       description: "A JSON Feed implementation in Elixir",
       source_url: "https://github.com/murielsilveira/json_feed_elixir",
       package: package(),
-      elixir: "~> 1.4",
+      elixir: "~> 1.11",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: deps(),
@@ -22,7 +22,7 @@ defmodule JsonFeed.Mixfile do
 
   defp deps do
     [
-      {:poison, "~> 3.0"},
+      {:poison, "~> 5.0"},
       {:mix_test_watch, "~> 0.3", only: :dev, runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]

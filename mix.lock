@@ -1,5 +1,7 @@
-%{"earmark": {:hex, :earmark, "1.2.2", "f718159d6b65068e8daeef709ccddae5f7fdc770707d82e7d126f584cd925b74", [:mix], [], "hexpm"},
-  "ex_doc": {:hex, :ex_doc, "0.16.1", "b4b8a23602b4ce0e9a5a960a81260d1f7b29635b9652c67e95b0c2f7ccee5e81", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
-  "fs": {:hex, :fs, "2.12.0", "ad631efacc9a5683c8eaa1b274e24fa64a1b8eb30747e9595b93bec7e492e25e", [:rebar3], [], "hexpm"},
-  "mix_test_watch": {:hex, :mix_test_watch, "0.4.0", "7e44b681b0238999d4c39b5beed77b4ac45aef1c112a763aae414bdb5bc34523", [:mix], [{:fs, "~> 2.12", [hex: :fs, repo: "hexpm", optional: false]}], "hexpm"},
-  "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [:mix], [], "hexpm"}}
+%{
+  "earmark": {:hex, :earmark, "1.2.2", "f718159d6b65068e8daeef709ccddae5f7fdc770707d82e7d126f584cd925b74", [:mix], [], "hexpm", "59514c4a207f9f25c5252e09974367718554b6a0f41fe39f7dc232168f9cb309"},
+  "ex_doc": {:hex, :ex_doc, "0.16.1", "b4b8a23602b4ce0e9a5a960a81260d1f7b29635b9652c67e95b0c2f7ccee5e81", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm", "1d4ecdc3f292883abf88b41c69da6a81fe928d6d0d65572a64b8d63a4d707693"},
+  "fs": {:hex, :fs, "2.12.0", "ad631efacc9a5683c8eaa1b274e24fa64a1b8eb30747e9595b93bec7e492e25e", [:rebar3], [], "hexpm", "ff6043acf648b2b65026aeab3d32af68d2974d73c5a4c483bbdca60c0072b7e5"},
+  "mix_test_watch": {:hex, :mix_test_watch, "0.4.0", "7e44b681b0238999d4c39b5beed77b4ac45aef1c112a763aae414bdb5bc34523", [:mix], [{:fs, "~> 2.12", [hex: :fs, repo: "hexpm", optional: false]}], "hexpm", "16727a93e29d2c863c99c29410250089be46ca11713c4199a98bd444394f5950"},
+  "poison": {:hex, :poison, "5.0.0", "d2b54589ab4157bbb82ec2050757779bfed724463a544b6e20d79855a9e43b24", [:mix], [{:decimal, "~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "11dc6117c501b80c62a7594f941d043982a1bd05a1184280c0d9166eb4d8d3fc"},
+}
